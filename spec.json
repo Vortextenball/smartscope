@@ -1,0 +1,51 @@
+{
+    "name":  "smartscope",
+    "logo":  "🩺",
+    "exe":  "SmartScope.exe",
+    "desc":  "Free, open-source SSD and HDD health checker for Windows — read SMART data and catch failing drives early. 100 MB portable, no ads, MIT.",
+    "topics":  [
+                   "disk-health",
+                   "ssd-health",
+                   "smart-data",
+                   "hdd",
+                   "ssd",
+                   "nvme",
+                   "storage",
+                   "monitoring",
+                   "hard-drive",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "crystaldiskinfo-alternative",
+                   "drive-health",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Plain-language verdict** — 30+ SMART attributes become GOOD / CAUTION / BAD per drive, no hex tables to decode",
+                     "✅ **NVMe, SATA and USB** — NVMe health log via storage protocol, SATA SMART via ATA pass-through, blocked USB bridges flagged",
+                     "✅ **Temperature timeline** — per-minute logging for 90 days with tray alerts on threshold crossing (default 55 °C)",
+                     "✅ **Failure early-warning** — weighted score from reallocated, pending sectors and wear leveling trends",
+                     "✅ **Raw attribute drill-down** — raw, normalized and threshold values side by side for every attribute",
+                     "✅ **CSV and JSON export** — one click dumps all drive snapshots for spreadsheets or fleet scripts",
+                     "✅ **100 MB self-contained exe** — no service, no installer, offline; MIT with CI-built SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **smartscope** | CrystalDiskInfo | Hard Disk Sentinel | HD Tune Pro |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free | Paid | Paid |",
+                    "| Open source | **Yes** | No | No | No |",
+                    "| Plain-language health verdict | **Yes** | Partial | Partial | No |",
+                    "| Temperature history and alerts | **90 days** | No | Yes | No |",
+                    "| Raw SMART drill-down | **Yes** | Yes | Yes | Yes |",
+                    "| Portable, no install | **Yes, 100 MB** | Zip | Installer | Installer |"
+                ],
+    "faqQ":  "how to check SSD health on Windows?",
+    "faqA":  "SMART data exists on every modern drive but Windows buries it, so people find problems after a crash, not before. smartscope reads the same data and translates it into a three-level verdict with a temperature history that shows drives trending hot or worn. It is a 100 MB portable exe, MIT, no ads and fully offline with SHA-256 releases.",
+    "s1":  "Dark dashboard (#101214, emerald #34D399): drive cards left showing GOOD status and 38 °C, attribute table right with normalized bars.",
+    "s2":  "Attribute detail: reallocated-sector chart over 30 days, threshold markers, raw hex values in muted gray, export button.",
+    "s3":  "Alert settings: 55 °C threshold slider, tray notification toggle, CSV export path, list of USB bridges that block SMART."
+}
